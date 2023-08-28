@@ -1,98 +1,70 @@
-# rapp
-Build &amp; Deploy modern React App
+# Getting Started with Create React App
 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Sure, let's break down those instructions into a clear and engaging step-by-step guide:
+## Available Scripts
 
-**Creating an Exciting React Project with GPT-3 Magic**
+In the project directory, you can run:
 
-**Step 1: Setting Up the Playground**
+### `npm start`
 
-1. Open your coding universe and create a new folder. Let's call it "gpt3_magic", or whatever cool name you like.
-2. Launch Visual Studio Code and perform the ultimate drag-and-drop by tossing your fresh folder right into VS Code.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-**Step 2: Summoning the Terminal**
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-1. Navigate to "View" in the mystical VS Code realm.
-2. Click on "Terminal" and watch as the integrated terminal materializes before your eyes.
+### `npm test`
 
-**Step 3: The Enchanting Initialization**
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-1. Prepare for sorcery! Type `npx create-react-app .` and then add a dash of magic by writing `./` and pressing Enter.
-2. Remember, for this spell to work, you need the Node wizards on your side. If you don't have Node, Google "Node" and fetch it like a true tech wizard.
+### `npm run build`
 
-**Step 4: The Spell Takes Hold**
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-1. Awaiting the cosmic download? This ritual might take a minute, so let's put a pause on this journey and take a breather. I'll be right here.
-2. Once the ritual is complete, you'll witness new folders and files shimmering into existence like stardust.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-**Step 5: Decoding the Artifacts**
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-1. Observe the "src" folder, like a treasure chest waiting to be opened.
-2. Bow before the "node_modules" shrine – it holds the mysterious dependencies we shall invoke.
-3. Gaze upon the "public" canvas, where the index.html masterpiece awaits its artistic destiny.
-4. However, the true gem is the "src" treasure trove, where we'll forge our components' destiny.
+### `npm run eject`
 
-**Step 6: The Grand Cleanse**
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-1. Before our creative voyage, let's have a cleaning bonanza! Delete the default "src" folder – we're starting fresh.
-2. Forge a new "src" kingdom in its place. A new dawn, a new beginning!
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-**Step 7: Unveiling the Main Stage**
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-1. Inside the new "src" realm, craft the "index.js" – a ticket to React's show.
-2. Invoke the React deity: `import React from 'react'`.
-3. Call upon React's herald, "ReactDOM": `import ReactDOM from 'react-dom'`.
-4. Ready your stage: `ReactDOM.render(<App />, document.getElementById('root'))`.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-**Step 8: Conjuring the Divination Portal**
+## Learn More
 
-1. What is the div with the 'root' ID, you ask? Open the "public" scroll and reveal the enigma.
-2. Behold, a humble HTML incantation, a vessel with an "id" attribute – 'root'. Here lies the portal where our creation shall manifest.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-**Step 9: Crafting the Protagonist - App Component**
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-1. Enter the "src" cave and carve the "App.js" saga.
-2. Incant `import React from 'react'` to infuse your creation with React essence.
-3. Invoke the snippet sorcery with `rafce`, birthing a React functional component. Powerful indeed!
-4. Weave a mighty `<h1>` tale within the App's domain – "GPT-3 Magic" it shall be.
+### Code Splitting
 
-**Step 10: Gathering the Arcane Energies**
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-1. Beckon the 'Terminal' once more, the command awaits: `npm install react-icons`.
-2. A single dependency to unlock secret icon powers – no more, no less. The art of restraint, indeed!
+### Analyzing the Bundle Size
 
-**Step 11: The Unveiling of the Mystic Canvas**
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-1. With a deep breath, chant `npm start` to animate your creation into existence.
-2. Behold! A realm emerges on localhost:3000 – a blank canvas for now, but a future masterpiece in the making.
+### Making a Progressive Web App
 
-**Step 12: The Epic Blueprint**
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-1. It begins! Embark on a journey to forge your project structure.
-2. Create a new folder within "src" – the "components" treasure chest.
-3. Inside "components," craft your artifacts:
-   - "Article.js"
-   - "Brand.js"
-   - "CTA.js"
-   - "Feature.js"
-   - "Navbar.js"
-4. Each component shall have a counterpart file in this mystical duo.
+### Advanced Configuration
 
-**Step 13: Breathing Life into Components**
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-1. Open "Article.js" and channel your creative essence, for within it lies the potential of a thousand stories.
-2. Engage the mystical snippet "rafce" once again to conjure your functional component.
-3. Empower your component with a mesmerizing `<h2>` tale – let your creativity roam free!
+### Deployment
 
-**Step 14: Let the React Magic Flow**
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-1. Revel in your own mastery as you repeat the process for "Brand.js," "CTA.js," "Feature.js," and "Navbar.js."
-2. Imbue each with your unique touch, crafting stories that shall resonate with the hearts of users yet to come.
+### `npm run build` fails to minify
 
-**Step 15: Behold the Flourishing**
-
-1. With an air of triumph, glance upon your masterpiece-in-progress – a realm ready to flourish.
-2. Open your mind, wield your skills, and watch as each component becomes a cornerstone of your digital realm.
-
-And there you have it, a journey from an empty folder to a mystical React landscape filled with potential and creativity!
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
