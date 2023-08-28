@@ -1,4 +1,8 @@
-import React from 'react'
+import React from 'react';
+
+import { Footer, header, Blog, Possibility, Features, Kcodeapplied } from './containers';
+import { Cta, Brand, Navbar } from './components'
+
 
 const App = () => {
   return (

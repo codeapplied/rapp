@@ -4,7 +4,7 @@ import './header.css'
 const header = () => {
   return (
     <div>
-      this is a header
+      this is header
     </div>
   )
 }
