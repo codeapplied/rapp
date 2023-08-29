@@ -1,13 +1,23 @@
 import React from 'react';
 
-import { Footer, header, Blog, Possibility, Features, Kcodeapplied } from './containers';
+import { Footer, header1, Blog, Possibility, Features, Kcodeapplied } from './containers';
 import { Cta, Brand, Navbar } from './components'
 
 
 const App = () => {
   return (
-    <div>
-      <h1>codeapplied to first react app</h1>
+    <div className="App">
+      <div className="gradient__bg">
+        <Navbar />
+        <Header1 />
+      </div>
+      <Brand />
+      <knowCodeapplied />
+      <Features />
+      <Possibility />
+      <Cta />
+      <Blog />
+      <Footer />
     </div>
   )
 }
